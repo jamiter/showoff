@@ -1,0 +1,38 @@
+{
+  "name": "showoff",
+  "version": "0.0.5a",
+  "description": "A server to quickly launch the current working directory's static files",
+  "main": "lib/showoff.js",
+  "bin": {
+    "showoff": "bin/showoff"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/mocha/bin/mocha -R spec --compilers coffee:coffee-script",
+    "compile": "node_modules/coffee-script/bin/coffee -o lib/ -c src/",
+    "watch": "node_modules/coffee-script/bin/coffee -o lib/ -cw src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamiter/showoff.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Michiel ter Reehorst <info@jamiter.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamiter/showoff/issues"
+  },
+  "homepage": "https://github.com/jamiter/showoff",
+  "dependencies": {
+    "optimist": "0.6.0",
+    "express": "3.4.7"
+  },
+  "devDependencies": {
+    "mocha": "1.15.1",
+    "chai": "1.8.1",
+    "coffee-script": "1.6.3"
+  }
+}

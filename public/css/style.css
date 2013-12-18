@@ -1,0 +1,18 @@
+html, body {
+  background: #eee;
+  font-family: Helvetica, Arial;
+}
+
+h1 {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1em;
+  width: 600px;
+  margin: 20px auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+.thin {
+  font-weight: 100;
+}

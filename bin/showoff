@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var argv = require('optimist')
+    .alias('p', 'port')
+    .describe('p', 'Select a port')
+    .argv;
+
+var showoff = require(__dirname + '/../lib/showoff.js');
+showoff.run({port: argv.port})
