@@ -1,5 +1,5 @@
 # Showoff
-Quickly serve the `cwd` as a public server
+Quickly serve the `cwd` as a static file server.
 
 ## Installation
 
