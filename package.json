@@ -1,6 +1,6 @@
 {
   "name": "showoff",
-  "version": "0.0.5a",
+  "version": "0.0.6",
   "description": "A server to quickly launch the current working directory's static files",
   "main": "lib/showoff.js",
   "bin": {

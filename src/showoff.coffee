@@ -1,4 +1,5 @@
 fs = require("fs")
+spawn = require('child_process').spawn
 express = require("express")
 
 class Showoff
@@ -11,6 +12,10 @@ class Showoff
       publicDir = process.cwd() unless exists
       app.use express.static(publicDir)
       app.listen port, ->
-        console.log "Showing off on 127.0.0.1:" + port
+        host = "http://127.0.0.1:" + port
+        console.log "Showing off on #{host}"
+        if options.open
+          spawn 'open', [host]
+
 
 module.exports = new Showoff
