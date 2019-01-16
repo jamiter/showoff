@@ -1,7 +1,7 @@
 # Showoff
 Quickly serve the `cwd` as a static file server.
 
-![Build status](https://api.travis-ci.org/jamiter/showoff.png)
+[![Build status](https://api.travis-ci.org/jamiter/showoff.png)](https://travis-ci.org/jamiter/showoff)
 
 ## Installation
 
