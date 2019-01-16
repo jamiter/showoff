@@ -1,6 +1,8 @@
 # Showoff
 Quickly serve the `cwd` as a static file server.
 
+![Build status](https://api.travis-ci.org/jamiter/showoff.png)
+
 ## Installation
 
 You will need `node` (8.0.0 or higher) and `npm`.
