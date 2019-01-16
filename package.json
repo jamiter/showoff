@@ -9,9 +9,7 @@
   "preferGlobal": true,
   "scripts": {
     "start": "node index.js",
-    "test": "node_modules/mocha/bin/mocha -R spec --compilers coffee:coffee-script",
-    "compile": "node_modules/coffee-script/bin/coffee -o lib/ -c src/",
-    "watch": "node_modules/coffee-script/bin/coffee -o lib/ -cw src/"
+    "test": "node_modules/mocha/bin/mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -33,6 +31,5 @@
   "devDependencies": {
     "mocha": "1.15.1",
     "chai": "1.8.1",
-    "coffee-script": "1.6.3"
   }
 }
