@@ -5,7 +5,7 @@ Quickly serve the `cwd` as a static file server.
 
 ## Installation
 
-You will need `node` and `npm`.
+You will need `node` (8.0.0 or higher) and `npm`.
 
     npm install showoff -g
 
