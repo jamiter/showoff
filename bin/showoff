@@ -2,4 +2,7 @@
 const argv = require('yargs-parser')(process.argv.slice(2))
 const showoff = require(__dirname + '/../src/showoff.js');
 
-showoff(argv)
+showoff({
+    open: argv.open || argv.o,
+    port: argv.port || argv.p,
+})
