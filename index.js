@@ -1,1 +1,1 @@
-require('./bin/showoff');
+require('./bin/showoff')
