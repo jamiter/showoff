@@ -1,10 +1,5 @@
 #!/usr/bin/env node
-var argv = require('optimist')
-    .alias('o', 'open')
-    .describe('o', 'Open a browser with the right page')
-    .alias('p', 'port')
-    .describe('p', 'Select a port')
-    .argv;
+const argv = require('yargs-parser')(process.argv.slice(2))
+const showoff = require(__dirname + '/../src/showoff.js');
 
-var showoff = require(__dirname + '/../lib/showoff.js');
-showoff.run(argv)
+showoff(argv)
